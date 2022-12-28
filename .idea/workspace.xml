@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9f41613-7e18-48cb-8adc-b6bd77d9dacc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/ProductManager/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/ProductManager/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/ProductManager/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/ProductManager/ProductManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/ProductManager/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/ProductManager/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru.netology.ProductManager/ProductManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru.netology.ProductManager/ProductManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru.netology.ProductManager/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru.netology.ProductManager/ProductRepositoryTest.java" afterDir="false" />
     </list>
@@ -63,7 +58,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductManagerTest">
+  <component name="RunManager" selected="JUnit.ProductRepositoryTest.DeleteTestSmartphones">
     <configuration name="ProductManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProductManager" />
       <extension name="coverage">
@@ -79,22 +74,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProductManager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.ProductManager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.ProductManager" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.ProductManager.ProductRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductManagerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductManagerTest.addTestShouldFindOneSmartphone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProductManager" />
       <extension name="coverage">
         <pattern>
@@ -104,14 +84,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.ProductManager" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.ProductManager.ProductManagerTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="METHOD_NAME" value="addTestShouldFindOneSmartphone" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductManagerTest.addTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductManagerTest.addTestShouldFindZeroSmartphone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProductManager" />
       <extension name="coverage">
         <pattern>
@@ -121,15 +100,29 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.ProductManager" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.ProductManager.ProductManagerTest" />
-      <option name="METHOD_NAME" value="addTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="METHOD_NAME" value="addTestShouldFindZeroSmartphone" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductRepositoryTest.deleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductManagerTest.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProductManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.ProductManager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.ProductManager" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.ProductManager.ProductManagerTest" />
+      <option name="METHOD_NAME" value="searchTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.DeleteTestSmartphones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProductManager" />
       <extension name="coverage">
         <pattern>
@@ -139,21 +132,19 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.ProductManager" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.ProductManager.ProductRepositoryTest" />
-      <option name="METHOD_NAME" value="deleteTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="METHOD_NAME" value="DeleteTestSmartphones" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductRepositoryTest.DeleteTestSmartphones" />
+        <item itemvalue="JUnit.ProductManagerTest.addTestShouldFindZeroSmartphone" />
+        <item itemvalue="JUnit.ProductManagerTest.addTestShouldFindOneSmartphone" />
+        <item itemvalue="JUnit.ProductManagerTest.searchTest" />
         <item itemvalue="JUnit.ProductManagerTest" />
-        <item itemvalue="JUnit.ProductRepositoryTest" />
-        <item itemvalue="TestNG.ProductRepositoryTest.deleteTest" />
-        <item itemvalue="TestNG.ProductManagerTest.addTest" />
-        <item itemvalue="TestNG.ProductManagerTest" />
       </list>
     </recent_temporary>
   </component>
