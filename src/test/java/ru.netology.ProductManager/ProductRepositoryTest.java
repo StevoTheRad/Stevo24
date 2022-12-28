@@ -1,7 +1,7 @@
 package ru.netology.ProductManager;
 
 import org.junit.jupiter.api.Assertions;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 
 public class ProductRepositoryTest {
 
