@@ -17,16 +17,30 @@ public class ProductRepository {
         return products;
     }
 
-    public void deleteById(int id) {
+    public void deleteById(int deleteId) {
+
+        Product deleteProduct = findById(deleteId);
+        if (deleteProduct == null) {
+            throw new NotFoundException(deleteId);
+        }
 
         Product[] tmp = new Product[products.length - 1];
         int copyToIndex = 0;
         for (Product product : products) {
-            if (product.getId() != id) {
+            if (product.getId() != deleteId) {
                 tmp[copyToIndex] = product;
                 copyToIndex++;
             }
         }
         products = tmp;
+    }
+
+    public Product findById(int id) {
+        for (Product product : products) {
+            if (product.getId() == id) {
+                return product;
+            }
+        }
+        return null;
     }
 }

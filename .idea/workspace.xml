@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f41613-7e18-48cb-8adc-b6bd77d9dacc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru.netology.ProductManager/ProductManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru.netology.ProductManager/ProductManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/ProductManager/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/ProductManager/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru.netology.ProductManager/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru.netology.ProductManager/ProductRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,22 +58,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProductRepositoryTest.DeleteTestSmartphones">
-    <configuration name="ProductManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProductManager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.ProductManager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.ProductManager" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.ProductManager.ProductManagerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ProductRepositoryTest.DeleteTestSmartphonesWithWrongID">
     <configuration name="ProductManagerTest.addTestShouldFindOneSmartphone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProductManager" />
       <extension name="coverage">
@@ -106,22 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductManagerTest.searchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProductManager" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.netology.ProductManager.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.netology.ProductManager" />
-      <option name="MAIN_CLASS_NAME" value="ru.netology.ProductManager.ProductManagerTest" />
-      <option name="METHOD_NAME" value="searchTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProductRepositoryTest.DeleteTestSmartphones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProductManager" />
       <extension name="coverage">
@@ -138,13 +107,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductRepositoryTest.DeleteTestSmartphonesWithWrongID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProductManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.ProductManager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.ProductManager" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.ProductManager.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="DeleteTestSmartphonesWithWrongID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.deleteTestBooksWithWrongID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProductManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.ProductManager.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.ProductManager" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.ProductManager.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="deleteTestBooksWithWrongID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductRepositoryTest.DeleteTestSmartphonesWithWrongID" />
+        <item itemvalue="JUnit.ProductRepositoryTest.deleteTestBooksWithWrongID" />
         <item itemvalue="JUnit.ProductRepositoryTest.DeleteTestSmartphones" />
         <item itemvalue="JUnit.ProductManagerTest.addTestShouldFindZeroSmartphone" />
         <item itemvalue="JUnit.ProductManagerTest.addTestShouldFindOneSmartphone" />
-        <item itemvalue="JUnit.ProductManagerTest.searchTest" />
-        <item itemvalue="JUnit.ProductManagerTest" />
       </list>
     </recent_temporary>
   </component>
